@@ -1,0 +1,22 @@
+# Ignore sensitive files
+application/config/database.php
+
+# Ignore uploads
+uploads/
+
+# Logs
+application/logs/
+
+# OS files
+.DS_Store
+
+# Cache/tmp
+*.log
+*.tmp
+*.cache
+
+# Composer
+vendor/
+
+# Node
+node_modules/
