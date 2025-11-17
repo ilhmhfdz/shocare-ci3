@@ -1,0 +1,8 @@
+# Allow access to images and other files in uploads
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+<FilesMatch "\.(php|phtml)$">
+    Deny from all
+</FilesMatch>
